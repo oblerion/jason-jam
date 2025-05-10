@@ -103,8 +103,8 @@ torche. Il ouvre une porte.
 Arthur est assis sur un banc en face de la scène representant la salle sombre.
 Son collègue lui propose de sortir aller fumer, ce qu'il accèpte. Ils se
 dirigent vers la sortie mais au moment d'ouvrir la porte se retrouvent pris dans
-une explosion provenant d'un tuyau sur le mur d'à côté menant graduellement pour
-le spectateur à un écran blanc.
+une explosion provenant d'un tuyau sur le mur d'à côté menant pour le joueur à
+un écran blanc.
 
 **COL**  
 On va fumer ?
@@ -137,4 +137,52 @@ mettent d'accordp pour se retrouver dans un bar.
 12 - INT. BAR, BAR - NUIT
 
 Arthur parle avec son ami d'enfance, puis il en vient à parler de ce qui s'est
-passé dans la rue.
+passé dans la rue. Un homme assis un peu plus loin, avec un look de sans abri,
+entend la conversation et les interrompt. Il dit à Arthur que ce qu'il a vécu
+n'était pas un rêve et quitte le bar. Arthur le regarde partir avec un air
+confu. Son ami lui dit que c'est un juste quelqu'un d'ivre et qu'il ne faut pas
+faire attention.
+
+**AMI**  
+Tu te souviens de la prof d'anglais ?  
+Elle était trop bizarre.
+
+**ARTH**  
+Elle clignait des yeux quand elle était en colère.
+
+**AMI**  
+Oui ! Ah ah je m'en souviens maintenant.
+
+(pause)
+
+**ARTH**  
+...  
+T'as déjà eu un rêve debout au milieu de la rue ?
+
+**AMI**  
+Un rêve ?  
+Debout ?
+
+**ARTH**  
+Tout à l'heure, j'étais sûr d'être au studio. Je sortais fumer avec mon collègue
+et avant de sortir... une explosion.  
+Juste après ça je me suis retrouvé au milieu de la rue et je suis rentré chez
+moi.
+
+**AMI**  
+...  
+T'es sûr que tu te sens bien à ton job ?
+
+(bruit de chope sur le contoir)
+
+**SDF**  
+Tu ne rêvais pas.  
+(part du bar)
+
+**ARTH**  
+Il a dit quoi ?
+
+**AMI**  
+C'est juste un mec bourré, fait pas attention.
+
+13 - INT. STUDIO, STUDIO - JOUR
