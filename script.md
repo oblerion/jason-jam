@@ -27,15 +27,15 @@ appercevons enfin les crédits finaux.
 Le personnage principal affronte le boss final et le one shot. Il meurt de
 manière un peu nulle après un discours dramatique.
 
-**BF**
+**BF**  
 Après tout ce temps tu es enfin arrivé jusqu'à moi.
 
-**PP**
-Finissons-en.
+**PP**  
+Finissons-en.  
 (attaque avec un coup d'épée)
 
-**BF**
-Arrgghh... ahhh... nooooon !!!
+**BF**  
+Arrgghh... ahhh... nooooon !!!  
 (meurt de manière nulle)
 
 2 - N/A. RPG, CRÉDITS - N/A
@@ -48,24 +48,24 @@ mis en pause avec un effet VHS.
 Arthur, l'acteur du personnage principal du RPG, sort de scène et parle un peu
 avec Sébastien, l'acteur du boss final du RPG.
 
-**SEB**
+**SEB**  
 On a enfin fini ce navet.
 
-**ARTH**
-(air neutre)
+**ARTH**  
+(air neutre)  
 Yep.
 
-**SEB**
+**SEB**  
 Puis ce coup final, franchement bravo !
 
-**ARTH**
-(n'a décidément pas envie de parler à Sébastien)
-Mhm.
-Tu m'excusera je crois que j'ai oublié d'éteindre ma plaque.
-Et j'ai oublier d'ouvrir au chien.
+**ARTH**  
+(n'a décidément pas envie de parler à Sébastien)  
+Mhm.  
+Tu m'excusera je crois que j'ai oublié d'éteindre ma plaque.  
+Et j'ai oublier d'ouvrir au chien.  
 Et aussi j'ai pas envie de parler.
 
-**SEB**
+**SEB**  
 ...
 
 4 - EXT. VILLE, RUE - NUIT
@@ -73,10 +73,10 @@ Et aussi j'ai pas envie de parler.
 Arthur sur le chemin vers chez lui trouve une pierre au sol. Il l'a trouve jolie
 et decide de la garder dans sa poche.
 
-**ARTH**
-(air intrigué)
-...
-Peut-être que Margarette me reprendra si je lui offre au bout d'un collier.
+**ARTH**  
+(air intrigué)  
+...  
+Peut-être que Margarette me reprendra si je lui offre au bout d'un collier.  
 (met la pierre dans sa poche)
 
 5 - INT. IMMEUBLE, CAGE D'ESCALIERS - NUIT
@@ -90,7 +90,7 @@ Arthur mange, se douche et va se coucher, tout ça couper par des cuts donnant
 des plans de quelques secondes. Le plan où il va se coucher est lui le plus long
 et on le voit poser la pierre sur sa table de chevet avant de se coucher.
 
-**SEB**
+**SEB**  
 Peut-être qu'elle me portera chance.
 
 7 - INT. N/A, SALLE SOMBRE - N/A
@@ -106,11 +106,11 @@ dirigent vers la sortie mais au moment d'ouvrir la porte se retrouvent pris dans
 une explosion provenant d'un tuyau sur le mur d'à côté menant graduellement pour
 le spectateur à un écran blanc.
 
-**COL**
+**COL**  
 On va fumer ?
 
-**ARTH**
-J'te suis.
+**ARTH**  
+J'te suis.  
 (se lève du banc)
 
 9 - EXT. VILLE, RUE - NUIT
@@ -118,9 +118,9 @@ J'te suis.
 Arthur se retrouve dans la rue, juste après le moment où il a ramassé la pierre.
 Arthur rentre chez lui après un moment de confusion.
 
-**ARTH**
-(est confu)
-Je...
+**ARTH**  
+(est confu)  
+Je...  
 Bizarre.
 
 10 - INT. IMMEUBLE, CAGE D'ESCALIERS - NUIT
