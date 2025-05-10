@@ -9,26 +9,24 @@ main :: proc() {
     ray.SetExitKey(.KEY_NULL)
 
 	game_init()
-	player_init()
+	player := entity_init()
 
 	for !ray.WindowShouldClose() {
-		game_update()
+		game_update(&player)
 
-		if !is_paused() {
-			player_update()
+		if !state.paused {
+			entity_update(&player)
 		}
 
 		ray.BeginDrawing()
 		ray.ClearBackground(ray.RAYWHITE)
 
-		player_draw()
+		entity_draw(&player)
 
-		if is_paused() {
+		if state.paused {
 			ray.DrawText("PAUSE", 350, 280, 50, ray.RED)
 		}
-
 		ray.EndDrawing()
 	}
-
 	ray.CloseWindow()
 }
