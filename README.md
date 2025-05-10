@@ -3,6 +3,9 @@
 tags : pixelart, rpg, boucle temporelle
 
 ## scénar
-- scéne rpg boss de fin
-- explosion
-- vie réel
+- Scéne rpg boss de fin
+- Héro -> En réalité un acteur
+- Le boss est battu facilement
+- Boss a des remords et veut se venger
+- Explosion
+- Vie réel
