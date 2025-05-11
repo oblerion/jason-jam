@@ -4,21 +4,21 @@
 
 Arthur, acteur de jeu vidéo réalise qu'il est bloqué dans une boucle temporelle
 suite à une explosion qu'il subit en sortant du studio. Après en avoir appris
-un peu plus sur l'origine de cette boucle il cible son attention sur l'explosion
-qu'il va chercher à empêcher dans le but de sauver les gens qui pourraient se
-trouver au alentour. Après une enquête plus approfondit il se rend compte que
-peut-être cet explosion n'est pas un simple accident, et qu'elle est en vérité
-ciblé contre lui. Il arrive à s'inflitrer plus loin dans le studio et est mis
-en face de la réalité après avoir entendu une discussion entre le directeur et
-Sébastien, un des acteurs avec qui il a joué. Il confronte Sébastien au milieu
-du studio où l'on en apprend plus sur les intentions de Sébastien. Après qu'il
-se soit dégonflé il prend Arthur par surprise en essayant de l'attaquer avec un
-des objets du décor mais en vain. Arthur et Sébastien s'affronte alors dans un
-combat final à l'aide d'épées normalement destiner à la scène se résultant par
-la victoire d'Arthur. Le metteur en scène annonce le cut, nous faisant
-comprendre que le jeu lui même n'était qu'une scène dont Arthur était le
-presonnage principal. Arthur sort fumer et après un traveling vers le ciel nous
-appercevons enfin les crédits finaux.
+un peu plus sur l'origine de la boucle causé par une pierre, il cible son
+attention sur l'explosion qu'il va chercher à empêcher dans le but de sauver les
+gens qui pourraient se trouver au alentour. Après une enquête plus approfondit
+il se rend compte que peut-être cet explosion n'est pas un simple accident, et
+qu'elle est en vérité ciblé contre lui. Il arrive à s'inflitrer plus loin dans
+le studio et est mis en face de la réalité après avoir entendu une discussion
+entre le directeur et Sébastien, un des acteurs avec qui il a joué. Il confronte
+Sébastien au milieu du studio où l'on en apprend plus sur les intentions de
+Sébastien. Après qu'il se soit dégonflé il prend Arthur par surprise en essayant
+de l'attaquer avec un des objets du décor mais en vain. Arthur et Sébastien
+s'affronte alors dans un combat final à l'aide d'épées normalement destiner à la
+scène se résultant par la victoire d'Arthur. Le metteur en scène annonce le cut,
+nous faisant comprendre que le jeu lui même n'était qu'une scène dont Arthur
+était le presonnage principal. Arthur sort fumer et après un traveling vers le
+ciel nous appercevons enfin les crédits finaux.
 
 ## Séquences
 
@@ -144,7 +144,7 @@ confu. Son ami lui dit que c'est un juste quelqu'un d'ivre et qu'il ne faut pas
 faire attention.
 
 **AMI**  
-Tu te souviens de la prof d'anglais ?  
+Tu te souviens de notre prof d'anglais ?  
 Elle était trop bizarre.
 
 **ARTH**  
@@ -183,6 +183,60 @@ Tu ne rêvais pas.
 Il a dit quoi ?
 
 **AMI**  
-C'est juste un mec bourré, fait pas attention.
+C'est juste un mec bourré, fais pas attention.
 
 13 - INT. STUDIO, STUDIO - JOUR
+
+Arthur retourne au studio le lendemain et reéxperience la même journée. Il
+hésite d'abord avant de sortir fumer, mais voyant que l'explosion n'a pas lieu
+il fini par sortir. L'explosion fini par arriver tuant Arthur.
+
+**COL**  
+On va fumer ?
+
+**ARTH**  
+J'te suis.  
+(se lève du banc)
+
+14 - EXT. VILLE, RUE - NUIT
+
+Arthur comprend que quelque chose est en train de se passer mais il ne comprend
+pas bien quoi. Il s'empresse d'aller vers le bar pensant que le sans abri aura
+des réponses à ses questions.
+
+15 - INT. BAR, BAR - NUIT
+
+Arthur attend dans le bar la venu du sans abri. Il attend des heures mais il ne
+vient pas. Chaque dialogue est entrecoupé, l'horloge au mur montrant le passage
+du temps.
+
+**ARTH**  
+J'étais sûr qu'il serait là.
+
+**ARTH**  
+Où est-ce qu'il peut être ?
+
+**ARTH**  
+Qu'est-ce qu'il attend ?
+
+**ARTH**  
+J'abandonne. Il ne viendra pas.
+
+16 - EXT. VILLE, RUE - NUIT
+
+Arthur resort du bar, se demandant ce qu'il pourrait faire en suite. Arthur se
+fait kidnapper.
+
+**ARTH**  
+Hé, lachez-moi !
+
+17 - INT. N/A, SALLE EN BÉTON - NUIT
+
+Arthur se retrouve assis en face du sans abri. Le sans abri dit à Arthur que la
+boucle temporelle est dû à la pierre qu'il a ramassé dans la rue. Il raconte à
+Arthur les origine de la pierre grâce à un projecteur. La pierre viendrait d'une
+secte ancienne qui vénèrerait le dieu Jason. Ils auraient fabriquer cette pierre
+pour pouvoir le prier pour l'éternité. Le sans abri n'aura cependant pas de
+réponses au sujet de l'explosion.
+
+
