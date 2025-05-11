@@ -1,6 +1,7 @@
 package main
 
 import sa "core:container/small_array"
+import "core:fmt"
 import ray "vendor:raylib"
 Entity :: struct {
 	pos:   ray.Vector2,
@@ -18,66 +19,76 @@ entity_update :: proc(entities: ^sa.Small_Array(100, Entity)) {
 	dt := ray.GetFrameTime()
 
 	for i in 0 ..< sa.len(entities^) {
-		e := sa.get_ptr(entities, i)
+		entity := sa.get_ptr(entities, i)
 
-		if ray.Vector2Length(e.dir) == 0 {
-			continue
-		}
+		if ray.Vector2Length(entity.dir) == 0 do continue
 
-		delta := ray.Vector2Normalize(e.dir) * (e.speed * dt)
+		// ? Peut-être utiliser des variables dx et dy pour ne pas modifier 
+		// ? directement la valeur de delta.  
+		delta := ray.Vector2Normalize(entity.dir) * (entity.speed * dt)
 
 		if delta.x != 0 {
-			proposed_x := ray.Rectangle {
-				x      = e.pos.x + delta.x,
-				y      = e.pos.y,
-				width  = e.size.x,
-				height = e.size.y,
-			}
-
-			can_move_x := true
 			for j in 0 ..< sa.len(entities^) {
-				if i == j {
+				if i == j do continue
+				other_entity := sa.get_ptr(entities, j)
+
+				if entity.pos.y + entity.size.y <= other_entity.pos.y ||
+				   entity.pos.y >= other_entity.pos.y + other_entity.size.y {
 					continue
 				}
-				other := sa.get_ptr(entities, j)
-				if rects_overlap(proposed_x, get_bounds(other)) {
-					can_move_x = false
-					break
+
+				if delta.x > 0 {
+					dist := other_entity.pos.x - (entity.pos.x + entity.size.x)
+					if dist >= 0 {
+						delta.x = min(delta.x, dist)
+					}
+				} else {
+					dist := (other_entity.pos.x + other_entity.size.x) - entity.pos.x
+					if dist <= 0 {
+						delta.x = max(delta.x, dist)
+					}
 				}
 			}
-			if can_move_x {
-				e.pos.x += delta.x
-			}
+			entity.pos.x += delta.x
 		}
 
-		if delta.y != 0 {
-			proposed_y := ray.Rectangle {
-				x      = e.pos.x,
-				y      = e.pos.y + delta.y,
-				width  = e.size.x,
-				height = e.size.y,
-			}
-
-			can_move_y := true
+		dy := delta.y
+		if dy != 0 {
 			for j in 0 ..< sa.len(entities^) {
-				if i == j {
+				if i == j do continue
+
+				other_entity := sa.get_ptr(entities, j)
+
+				if entity.pos.x + entity.size.x <= other_entity.pos.x ||
+				   entity.pos.x >= other_entity.pos.x + other_entity.size.x {
 					continue
 				}
-				other := sa.get_ptr(entities, j)
-				if rects_overlap(proposed_y, get_bounds(other)) {
-					can_move_y = false
-					break
+
+				if dy > 0 {
+					dist := other_entity.pos.y - (entity.pos.y + entity.size.y)
+					if dist >= 0 {
+						dy = min(dy, dist)
+					}
+				} else {
+					dist := (other_entity.pos.y + other_entity.size.y) - entity.pos.y
+					if dist <= 0 {
+						dy = max(dy, dist)
+					}
 				}
 			}
-			if can_move_y {
-				e.pos.y += delta.y
-			}
+			entity.pos.y += dy
 		}
 	}
 }
 
-get_bounds :: proc(e: ^Entity) -> ray.Rectangle {
-	return ray.Rectangle{x = e.pos.x, y = e.pos.y, width = e.size.x, height = e.size.y}
+
+get_bounds :: proc(entity: ^Entity) -> ray.Rectangle {
+	return ray.Rectangle {
+		x = entity.pos.x,
+		y = entity.pos.y,
+		width = entity.size.x,
+		height = entity.size.y,
+	}
 }
 
 rects_overlap :: proc(a: ray.Rectangle, b: ray.Rectangle) -> bool {
