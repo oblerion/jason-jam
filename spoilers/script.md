@@ -232,11 +232,80 @@ Hé, lachez-moi !
 
 17 - INT. N/A, SALLE EN BÉTON - NUIT
 
-Arthur se retrouve assis en face du sans abri. Le sans abri dit à Arthur que la
-boucle temporelle est dû à la pierre qu'il a ramassé dans la rue. Il raconte à
-Arthur les origine de la pierre grâce à un projecteur. La pierre viendrait d'une
-secte ancienne qui vénèrerait le dieu Jason. Ils auraient fabriquer cette pierre
-pour pouvoir le prier pour l'éternité. Le sans abri n'aura cependant pas de
-réponses au sujet de l'explosion.
+Arthur se retrouve assis en face du sans abri, deux gardes du corps à ses côtés.
+Le sans abri dit à Arthur que la boucle temporelle est dû à la pierre qu'il a
+ramassé dans la rue. Il raconte à Arthur les origine de la pierre grâce à un
+projecteur. La pierre viendrait d'une secte ancienne qui vénèrerait le dieu
+Jason. Ils auraient fabriquer cette pierre pour pouvoir le prier pour
+l'éternité. Le sans abri n'aura cependant pas de réponses au sujet de
+l'explosion.
 
+**ARTH**  
+Vous êtes qui ?
 
+**GDC**  
+(enlève le sac sur la tête d'Arthur)
+
+**SDF**  
+Ce n'est pas important.
+
+**ARTH**  
+Pourquoi vous m'avez emmené ici ?
+
+**SDF**  
+Pour ce que tu as dans ta poche.
+
+**ARTH**  
+La pierre ?  
+Qu'est-ce que ça a à faire avec tout ça ?
+
+**SDF**  
+...  
+Lancez la projection.
+
+(le projecteur s'allume montrant des fanatiques)
+
+Il y a bien longtemps, un groupe de fanatique a construit ces pierres.
+
+(slide où on voit la création des pierres)
+
+Leur secte était très méprisée, et beaucoup voulait sa destruction.  
+Ils ont alors construit ces pierres dans le but d'empêcher ça.
+
+(slide où on voit le lien entre les pierres et leur proriétaires)
+
+Une fois la pierre touchée, elle est lié à son propriétaire.  
+Si le propriétaire meurt, il est renvoyé au moment où il a touché la pierre
+pour la première fois.
+
+**ARTH**  
+...
+
+**SDF**  
+(slide où on voit la secte prédire les attaques)
+
+Avec ces pierres, ils pouvaient voir venir les coups de leurs adversaires en
+avance et donc les contrecarrer.
+
+(slide secret avec la tête de Jason et les fanatiques qui prient autour)
+
+**ARTH**  
+Et l'explosion ?
+
+**SDF**  
+Hm ?
+
+**ARTH**  
+Au studio. Il y aura une explosion demain. Je dois empêcher ça !
+
+**SDF**  
+Malheureusement je ne pourrais pas t'aider.
+
+**ARTH**  
+...  
+D'ailleurs, pourquoi vous m'avez kidnappé ?
+
+**SDF**  
+Parce que ça fait classe.
+
+18 - INT. STUDIO, STUDIO - JOUR
