@@ -14,7 +14,7 @@ game_init :: proc() {
 	state = Game_State{}
 }
 
-game_update :: proc(player: ^Entity) {
+game_update :: proc(es: ^EntitySystem, player_id: i32) {
 	state.frame_count += 1
 
 	if ray.IsKeyPressed(.ESCAPE) do state.paused = !state.paused
@@ -25,5 +25,5 @@ game_update :: proc(player: ^Entity) {
 	if ray.IsKeyDown(.A) do dir.x -= 1
 	if ray.IsKeyDown(.S) do dir.y += 1
 	if ray.IsKeyDown(.W) do dir.y -= 1
-	player.dir = dir
+	es.dir[player_id] = dir
 }

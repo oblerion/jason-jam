@@ -2,49 +2,45 @@ package main
 
 import sa "core:container/small_array"
 import "core:fmt"
-import ray "vendor:raylib"
+import rl "vendor:raylib"
 
 main :: proc() {
-	ray.InitWindow(800, 600, "Jason-Jam (JJ)")
-	ray.SetTargetFPS(60)
-	ray.SetExitKey(.KEY_NULL)
+	rl.InitWindow(800, 600, "Jason-Jam (JJ)")
+	rl.SetTargetFPS(60)
+	rl.SetExitKey(.KEY_NULL)
 
 	game_init()
-	entities: sa.Small_Array(100, Entity)
-	sa.push(&entities, entity_init(ray.Vector2{400, 300}))
-	player_id := sa.len(entities) - 1
+	es: EntitySystem
+	player_id := add_entity(
+		&es,
+		Entity{pos = rl.Vector2{300, 400}, size = rl.Vector2{32, 32}, color = rl.BLUE},
+	)
+	add_entity(&es, Entity{pos = rl.Vector2{400, 400}, size = rl.Vector2{64, 64}, color = rl.RED})
 
 	buttons: Buttons
 	// TODO : Créer une fonction qui gère l'ajout de bouton
 	sa.push_back(
 		&buttons,
-		button_init(
-			ray.Vector2{10, 10},
-			ray.Vector2{200, 200},
-			"Click me !!",
-			ray.BLUE,
-			ray.RED,
-			foo,
-		),
+		button_init(rl.Vector2{10, 10}, rl.Vector2{200, 200}, "Click me !!", rl.BLUE, rl.RED, foo),
 	)
 
-	for !ray.WindowShouldClose() {
-		game_update(sa.get_ptr(&entities, player_id))
-		buttons_update(&buttons)
+	for !rl.WindowShouldClose() {
+		game_update(&es, player_id)
 
 		if !state.paused {
-			entity_update(&entities)
+			entity_update(&es)
+			buttons_update(&buttons)
 		}
 
-		ray.BeginDrawing()
-		ray.ClearBackground(ray.RAYWHITE)
+		rl.BeginDrawing()
+		rl.ClearBackground(rl.RAYWHITE)
 
-		entity_draw(sa.get_ptr(&entities, player_id))
+		entity_draw(&es)
 		buttons_draw(&buttons)
 		if state.paused {
-			ray.DrawText("PAUSE", 350, 280, 50, ray.RED)
+			rl.DrawText("PAUSE", 350, 280, 50, rl.RED)
 		}
-		ray.EndDrawing()
+		rl.EndDrawing()
 	}
-	ray.CloseWindow()
+	rl.CloseWindow()
 }
