@@ -28,10 +28,9 @@ Le personnage principal affronte le boss final et le one shot. Il meurt de
 manière un peu nulle après un discours dramatique.
 
 **BF**  
-Après tout ce temps tu es enfin arrivé jusqu'à moi.
+Après tout ce temps tu es enfin arrivé jusqu'à moi muah ah ah !
 
 **PP**  
-Finissons-en.  
 (attaque avec un coup d'épée)
 
 **BF**  
@@ -49,20 +48,21 @@ Arthur, l'acteur du personnage principal du RPG, sort de scène et parle un peu
 avec Sébastien, l'acteur du boss final du RPG.
 
 **SEB**  
-On a enfin fini ce navet.
+Bien joué !  
+On en a enfin fini avec ce navet.
 
 **ARTH**  
 (air neutre)  
 Yep.
 
 **SEB**  
-Puis ce coup final, franchement bravo !
+Puis ce coup final ! Franchement bravo !
 
 **ARTH**  
 (n'a décidément pas envie de parler à Sébastien)  
 Mhm.  
-Tu m'excusera je crois que j'ai oublié d'éteindre ma plaque.  
-Et j'ai oublier d'ouvrir au chien.  
+Tu m'excusera je dois y aller. Je crois que j'ai oublié d'éteindre ma plaque.  
+Et j'ai oublié d'ouvrir au chien.  
 Et aussi j'ai pas envie de parler.
 
 **SEB**  
@@ -91,7 +91,7 @@ des plans de quelques secondes. Le plan où il va se coucher est lui le plus lon
 et on le voit poser la pierre sur sa table de chevet avant de se coucher.
 
 **SEB**  
-Peut-être qu'elle me portera chance.
+Ca se trouve elle porte chance.
 
 7 - INT. N/A, SALLE SOMBRE - N/A
 
@@ -309,3 +309,7 @@ D'ailleurs, pourquoi vous m'avez kidnappé ?
 Parce que ça fait classe.
 
 18 - INT. STUDIO, STUDIO - JOUR
+
+Arthur monte les marches plus loin dans le studio et s'infiltre au milieu de la
+sécurité. Il se retrouve trouve alors assez proche pour entendre une discussion
+entre le directeur du studio et Sebastien.
